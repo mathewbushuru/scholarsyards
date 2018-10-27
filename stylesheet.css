@@ -1,0 +1,250 @@
+/*start of body*/
+body{
+    
+}
+/*start of header*/
+header{
+    position: fixed;
+    left: 0%;
+    right:0%;
+    top: 0%;
+    bottom: 85%;
+    
+    
+    background-color: darkblue;
+}
+
+.scholarshipheader{
+    bottom: 90%;
+}
+
+h1{
+    position: fixed;
+    left: 5%;
+    
+    font-size: 30px;
+    color:white;
+    
+}
+
+nav{
+    position: fixed;
+    top: 3.5%;
+    right: 5%;
+    
+    font-size: 20px;
+        
+}
+
+.navscholarship{
+    right:1%;
+}
+
+.anav{
+    color:white;
+    text-decoration: none;
+}
+
+.anav:hover{
+    text-decoration: underline;
+
+}
+/*end of header*/
+
+/*start of main body*/
+
+#mainbody{
+    position: fixed;
+    top: 9%;
+    bottom: 5%;
+    left:5%;
+    right: 5%;
+    
+    background-color: #F1F9FF;
+    background-image: url(pictures/header.jpg);
+    background-size: cover;
+}
+
+.mainbodycontent{
+    position: fixed;
+    top:15%;
+    left: 20%;
+    right: 20%;
+    
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+
+button{
+    font-size: 24px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button1:hover,.button1:focus{
+    color: darkblue;
+    background-color: #BCE0FD;
+}
+
+/*end of main body*/
+/*start of scholarshipbody*/
+
+#scholtop{
+    
+    position:fixed;
+    top: 13%;
+    bottom: 30%;
+    left: 0%;
+    right:23%;
+    
+    border-style: solid;
+    border-color: #BCE0FD;
+    border-radius: 12px;
+    border-width: 6px;
+    margin: 20px;
+    
+}
+
+.deadlineleft{
+    position: fixed;
+    left: 1%;
+   right:61.5%; 
+    
+    font-size:18px;
+    font-family: 'Tajawal', sans-serif;
+    
+    padding: 20px;
+    background-color:#BCE0FD;
+    margin: 20px;
+    
+}
+
+.deadlineright{
+    position: fixed;
+    left: 38.5%;
+    right:25%;
+    
+    font-size:18px;
+    font-family: 'Tajawal', sans-serif;
+    
+    padding: 20px;
+    background-color:#BCE0FD;
+    margin: 20px;
+}
+
+#scholbottom{
+    
+    position: fixed;
+    top: 70%;
+    bottom: 3%;
+    left: 1%;
+    right:23%;
+    
+    text-align: center;
+    
+    border-style: solid;
+    border-color: #BCE0FD;
+    border-radius: 12px;
+    border-width: 6px;
+    margin: 20px;
+}
+
+/*start of dropdown*/
+
+.dropbtn {
+   background-color: #BCE0FD;
+    color: darkblue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: darkblue;
+    color:white;
+    border-radius: 0px;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #BCE0FD;
+    min-width: 160px;
+    overflow:auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+    bottom:5%;
+    left:100%;
+}
+
+.adropdown {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.dropdown a:hover {background-color: white;}
+
+.show {display: block;
+}
+
+/*end of dropdown*/
+
+#scholright{
+    position: fixed;
+    top:13%;
+    bottom: 3%;
+    right:0%;
+    left:77%;
+    
+    background-color: #BCE0FD;
+    padding: 18x;
+    margin: 18px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #BCE0FD;
+
+}
+
+h2{
+    color: darkblue;
+    text-align: center;
+    font-size:24px;font-family: 'Tajawal', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/*end of scholarshipbody*/
+/*start of footer*/
+
+footer{
+    position: fixed;
+    bottom: 0%;
+    top: 95%;
+    left: 25%;
+    right:25%;
+    
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    font-size: 16px;
+}
+
+/*end of footer*/
+/*end of body*/
