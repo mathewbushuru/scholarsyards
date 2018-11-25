@@ -3,8 +3,8 @@ body{
     
 }
 /*start of header*/
-header{
-    position: fixed;
+header{                 /*homepage header*/
+    position: fixed;    /*change this to appropriate position*/
     left: 0%;
     right:0%;
     top: 0%;
@@ -14,7 +14,7 @@ header{
     background-color: darkblue;
 }
 
-.scholarshipheader{
+.scholarshipheader{         /*scholarship & contact me header*/
     bottom: 90%;
 }
 
@@ -27,7 +27,7 @@ h1{
     
 }
 
-nav{
+nav{                    /*all navigation*/
     position: fixed;
     top: 3.5%;
     right: 5%;
@@ -36,11 +36,11 @@ nav{
         
 }
 
-.navscholarship{
+.navscholarship{            /*changes to nav in scolarship page*/
     right:1%;
 }
 
-.anav{
+.anav{                      /*temporary logo*/
     color:white;
     text-decoration: none;
 }
@@ -54,7 +54,7 @@ nav{
 /*start of main body*/
 
 #mainbody{
-    position: fixed;
+    position: fixed;        /* change to appropriate position*/
     top: 9%;
     bottom: 5%;
     left:5%;
@@ -65,8 +65,8 @@ nav{
     background-size: cover;
 }
 
-.mainbodycontent{
-    position: fixed;
+.mainbodycontent{           /* text in the mainbody*/
+    position: fixed;        /*change to appropriate position*/
     top:15%;
     left: 20%;
     right: 20%;
@@ -76,7 +76,16 @@ nav{
     color: black;
 }
 
-button{
+#contactbody{
+    position: fixed;        /* change to appropriate position*/
+    top: 10%;
+    bottom: 0%;
+    left:0%;
+    right: 0%;
+    
+    background-color: #F1F9FF;
+}
+button{                     /*all buttons in website*/
     font-size: 24px;
     background-color: darkblue;
     color: white;
@@ -87,7 +96,7 @@ button{
     transition-duration: 0.4s;
 }
 
-.button1:hover,.button1:focus{
+.button1:hover,.button1:focus{      /*actions of homepage butyon when mouse hovers*/
     color: darkblue;
     background-color: #BCE0FD;
 }
@@ -95,7 +104,7 @@ button{
 /*end of main body*/
 /*start of scholarshipbody*/
 
-#scholtop{
+#scholtop{              /*top left of scholarship page*/
     
     position:fixed;
     top: 13%;
@@ -111,7 +120,7 @@ button{
     
 }
 
-.deadlineleft{
+.deadlineleft{          /*one of the scholarships close to deadline-left side*/
     position: fixed;
     left: 1%;
    right:61.5%; 
@@ -125,7 +134,7 @@ button{
     
 }
 
-.deadlineright{
+.deadlineright{         /*one of the scholarships close to deadline-right side*/
     position: fixed;
     left: 38.5%;
     right:25%;
@@ -138,7 +147,7 @@ button{
     margin: 20px;
 }
 
-#scholbottom{
+#scholbottom{       /*bottom of scholarship page-with country info*/
     
     position: fixed;
     top: 70%;
@@ -207,7 +216,7 @@ button{
 
 /*end of dropdown*/
 
-#scholright{
+#scholright{        /*right of scholarship page*/
     position: fixed;
     top:13%;
     bottom: 3%;
