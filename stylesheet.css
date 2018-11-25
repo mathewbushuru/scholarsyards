@@ -14,7 +14,7 @@ header{                 /*homepage header*/
     background-color: darkblue;
 }
 
-.scholarshipheader{         /*scholarship header*/
+.scholarshipheader{         /*scholarship & contact me header*/
     bottom: 90%;
 }
 
@@ -76,6 +76,15 @@ nav{                    /*all navigation*/
     color: black;
 }
 
+#contactbody{
+    position: fixed;        /* change to appropriate position*/
+    top: 10%;
+    bottom: 0%;
+    left:0%;
+    right: 0%;
+    
+    background-color: #F1F9FF;
+}
 button{                     /*all buttons in website*/
     font-size: 24px;
     background-color: darkblue;
